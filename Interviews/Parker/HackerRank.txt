@@ -1,0 +1,1065 @@
+1 -
+
+<div id="main-splitpane-left" class="coding-question__left-pane"><section class="question-view__title-wrapper"><h1 class="disable-text-selection question-view__title">1. Poker Master</h1></section><section class="question-view__instruction"><div class="candidate-rich-text disable-text-selection"><div id="1jarb4k5jc2-instruction"><style type="text/css">.ps-content-wrapper-v0 div { margin: 0 auto; overflow: auto; } .ps-content-wrapper-v0 div.preheader { display: none; } .ps-content-wrapper-v0 p { white-space: pre-wrap; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 p.section-title { font-weight: bold; padding-bottom: 0px; } .ps-content-wrapper-v0 ol.plain-list, .ps-content-wrapper-v0 ul.plain-list { list-style-type: none; padding: 4px; } .ps-content-wrapper-v0 li { white-space: normal; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 code { color: black; } .ps-content-wrapper-v0 pre { background-color: #f4faff; border: 0; border-radius: 2px; margin: 8px; padding: 10px; } .ps-content-wrapper-v0 pre.scrollable-full-json { overflow-x: scroll; white-space: pre; } .ps-content-wrapper-v0 pre.scrollable-json { height: 300px; overflow-y: scroll; display: inline-grid; white-space: pre-wrap; padding-left: 8px; padding-right: 8px; padding-top: 4px; padding-bottom: 4px; } .ps-content-wrapper-v0 div.equation-parent { width: 400px; text-align: center; border: 1px solid #000; padding: 8px; } .ps-content-wrapper-v0 div.equation-parent.equation { width: 100%; display: inline-block; } .ps-content-wrapper-v0 figure { background-color: transparent; display: table; margin-top: 8px; margin-bottom: 8px; text-align: center; margin-left: auto; margin-right: auto; } .ps-content-wrapper-v0 figcaption { text-align: center; display: table-caption; caption-side: bottom; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 img { width: auto; max-width: 100%; height: auto; } .ps-content-wrapper-v0 details { background-color: transparent; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 details details { padding-left: 8px; padding-right: 8px; } .ps-content-wrapper-v0 details summary { background-color: #39424e; color: white; font-weight: bold; margin-top: 4px; margin-bottom: 4px; padding: 8px; } .ps-content-wrapper-v0 details details summary code { color: black; font-weight: bold; padding-left: 2px; padding-right: 2px; padding-top: 4px; padding-right: 4px; margin-left: 4px; } .ps-content-wrapper-v0 details div.collapsable-details { margin: 0 auto; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; overflow: auto; } .ps-content-wrapper-v0 details div.collapsable-details pre { margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 table.normal { border: 1px solid black; border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; width: 96%; table-layout: fixed; } .ps-content-wrapper-v0 table.normal tbody { display: block; overflow-x: auto; overflow-y: hidden; } .ps-content-wrapper-v0 table.normal tbody tr:first-child th { font-weight: bold; white-space: normal; } .ps-content-wrapper-v0 table.normal tbody tr th, .ps-content-wrapper-v0 table.normal tbody tr td { font-weight: normal; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table.database-table { border-collapse: collapse; border-color: darkgray; border: 1px solid black; width: auto; margin-left: 4px; margin-top: 8px; margin-bottom: 8px; padding: 8px; } .ps-content-wrapper-v0 table.database-table tbody { overflow-x: auto; overflow-y: hidden; border: none; } .ps-content-wrapper-v0 table.database-table tbody tr th, .ps-content-wrapper-v0 table.database-table tbody tr td { font-weight: normal; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table.database-table tbody tr th { font-weight: bold; border: 1px solid black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(2) td { border: 1px solid black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(n+2) td:first-child { border-left-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(n+2) td:last-child { border-right-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr:last-child td { border-bottom-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr td.description { text-align: left; white-space: pre-wrap; } .ps-content-wrapper-v0 table.normal tbody tr th.description { width: 60%; } .ps-content-wrapper-v0 table.function-params tbody tr:first-child td.headers { border-bottom-width: 2px; } .ps-content-wrapper-v0 table.function-params tbody tr:last-child td { border-top-width: 2px; border-top-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.headers { width: 25%; font-weight: bold; text-align: center; border: 1px solid black; border-right-width: 2px; border-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell { width: 100%; height: 100%; padding: 0px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table { width: 100%; height: 100%; padding: 0px; margin: 0px; border: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td.code { white-space: normal; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th { border-top: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:last-child { border-right: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr:last-child td { border-bottom: 0; border-top-width: 1px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:last-child { border-right: 0; } .ps-content-wrapper-v0 table.sudoku { border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; } .ps-content-wrapper-v0 table.sudoku colgroup, tbody { border: 3px solid black; } .ps-content-wrapper-v0 table.sudoku td { border: 1px solid black; height: 25px; width: 25px; text-align: center; padding: 0; } .ps-content-wrapper-v0 .left { text-align: left; } .ps-content-wrapper-v0 .right { text-align: right; } .ps-content-wrapper-v0 .code { font-family: monospace; white-space: nowrap; } .ps-content-wrapper-v0 .json-object-array ol, .ps-content-wrapper-v0 .json-object-array ol ul { margin-top: 0px; padding-left: 14px; } .json-object-array li { float: left; margin-right: 30px; margin-left: 10px; } .json-object-array pre { padding: 4px; margin-left: 0px; }
+</style>
+<div class="ps-content-wrapper-v0">
+<p>A casino tracks the win/loss ratios of its players. Given the results of the players' games, write a query to fetch the names of the players and the ratio of their wins to losses. Order the results by ratio descending, then by name.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Note</strong>: Round the value of the ratio to two decimal places. &nbsp;</p>
+
+<p>&nbsp;</p>
+
+<details><summary class="section-title">Schema</summary>
+
+<div class="collapsable-details">
+<p>There are 2 tables: players, games.</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th colspan="100">players</th>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td>Type</td>
+			<td>Description</td>
+		</tr>
+		<tr>
+			<td>id</td>
+			<td>int</td>
+			<td>PK unique id of the player.</td>
+		</tr>
+		<tr>
+			<td>pname</td>
+			<td>varchar(30)</td>
+			<td>name of the player</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th colspan="100">games</th>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td>Type</td>
+			<td>Description</td>
+		</tr>
+		<tr>
+			<td>id</td>
+			<td>int</td>
+			<td>refers to&nbsp;<em>id</em>&nbsp;in the&nbsp;<em>players</em> table</td>
+		</tr>
+		<tr>
+			<td>result</td>
+			<td>varchar(5)</td>
+			<td>'lost' or 'won'</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+</div>
+</details>
+
+<details><summary class="section-title">Sample Data Tables</summary>
+
+<div class="collapsable-details">
+<table>
+	<tbody>
+		<tr>
+			<th colspan="100">players</th>
+		</tr>
+		<tr>
+			<td>id</td>
+			<td>pname</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>Maye Garfinkel</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>Odell Menter</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>Luanne Olds</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>Aurora Leedom</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>Meri Donat</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>Billi Oatman</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>Quintin Mayr</td>
+		</tr>
+		<tr>
+			<td>164</td>
+			<td>Malka Pair</td>
+		</tr>
+		<tr>
+			<td>970</td>
+			<td>Chelsea Drinnon</td>
+		</tr>
+		<tr>
+			<td>302</td>
+			<td>Annita Tessier</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<table>
+	<tbody>
+		<tr>
+			<th colspan="100">games</th>
+		</tr>
+		<tr>
+			<td>id</td>
+			<td>result</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>970</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>302</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>164</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>970</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>164</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>164</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>302</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>302</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>164</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>401</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>164</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>302</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>476</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>970</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>302</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>970</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>302</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>970</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>139</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>917</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>217</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>302</td>
+			<td>lost</td>
+		</tr>
+		<tr>
+			<td>164</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>257</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>won</td>
+		</tr>
+		<tr>
+			<td>291</td>
+			<td>won</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+
+<p>Summary of the sample data per player</p>
+
+<pre>Malka Pair       wins: 4 losses: 2 ratio: 2.00
+Maye Garfinkel   wins: 5 losses: 3 ratio: 1.67
+Meri Donat       wins: 8 losses: 6 ratio: 1.33
+Quintin Mayr     wins: 5 losses: 5 ratio: 1.00
+Annita Tessier   wins: 3 losses: 4 ratio: 0.75
+Aurora Leedom    wins: 5 losses: 7 ratio: 0.71
+Luanne Olds      wins: 5 losses: 7 ratio: 0.71
+Chelsea Drinnon  wins: 2 losses: 3 ratio: 0.67
+Odell Menter     wins: 3 losses: 6 ratio: 0.50
+Billi Oatman     wins: 4 losses: 9 ratio: 0.44
+</pre>
+
+<p>&nbsp;</p>
+
+<p>Expected output</p>
+
+<pre>Malka Pair       2.00
+Maye Garfinkel   1.67
+Meri Donat       1.33
+Quintin Mayr     1.00
+Annita Tessier   0.75
+Aurora Leedom    0.71
+Luanne Olds      0.71
+Chelsea Drinnon  0.67
+Odell Menter     0.50
+Billi Oatman     0.44
+</pre>
+
+<p>&nbsp;</p>
+</div>
+</details>
+</div>
+</div></div></section></div>
+
+
+RESULT: 
+/*
+Enter your query below.
+Please append a semicolon ";" at the end of the query
+*/
+SELECT p.pname,
+       ROUND( SUM(CASE WHEN g.result='won' THEN 1 ELSE 0 END) / 
+       NULLIF( SUM(CASE WHEN g.result='lost' THEN 1 ELSE 0 END), 0), 2) AS ratio
+FROM players as p 
+LEFT JOIN games as g on p.id=g.id
+GROUP BY p.id, p.pname
+ORDER BY ratio DESC, pname DESC; 
+
+
+2 -
+
+<div id="main-splitpane-left" class="coding-question__left-pane"><section class="question-view__title-wrapper"><h1 class="disable-text-selection question-view__title">2. SQL: Monthly Increase</h1></section><section class="question-view__instruction"><div class="candidate-rich-text disable-text-selection"><div id="4qc2defbqq7-instruction"><style type="text/css">.ps-content-wrapper-v0 div { margin: 0 auto; overflow: auto; } .ps-content-wrapper-v0 div.preheader { display: none; } .ps-content-wrapper-v0 p { white-space: pre-wrap; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 p.section-title { font-weight: bold; padding-bottom: 0px; } .ps-content-wrapper-v0 ol.plain-list, .ps-content-wrapper-v0 ul.plain-list { list-style-type: none; padding: 4px; } .ps-content-wrapper-v0 li { white-space: normal; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 code { color: black; } .ps-content-wrapper-v0 pre { background-color: #f4faff; border: 0; border-radius: 2px; margin: 8px; padding: 10px; } .ps-content-wrapper-v0 pre.scrollable-full-json { overflow-x: scroll; white-space: pre; } .ps-content-wrapper-v0 pre.scrollable-json { height: 300px; overflow-y: scroll; display: inline-grid; white-space: pre-wrap; padding-left: 8px; padding-right: 8px; padding-top: 4px; padding-bottom: 4px; } .ps-content-wrapper-v0 div.equation-parent { width: 400px; text-align: center; border: 1px solid #000; padding: 8px; } .ps-content-wrapper-v0 div.equation-parent.equation { width: 100%; display: inline-block; } .ps-content-wrapper-v0 figure { background-color: transparent; display: table; margin-top: 8px; margin-bottom: 8px; text-align: center; margin-left: auto; margin-right: auto; } .ps-content-wrapper-v0 figcaption { text-align: center; display: table-caption; caption-side: bottom; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 img { width: auto; max-width: 100%; height: auto; } .ps-content-wrapper-v0 details { background-color: transparent; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 details details { padding-left: 8px; padding-right: 8px; } .ps-content-wrapper-v0 details summary { background-color: #39424e; color: white; font-weight: bold; margin-top: 4px; margin-bottom: 4px; padding: 8px; } .ps-content-wrapper-v0 details details summary code { color: black; font-weight: bold; padding-left: 2px; padding-right: 2px; padding-top: 4px; padding-right: 4px; margin-left: 4px; } .ps-content-wrapper-v0 details div.collapsable-details { margin: 0 auto; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; overflow: auto; } .ps-content-wrapper-v0 details div.collapsable-details pre { margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 table.normal { border: 1px solid black; border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; width: 96%; table-layout: fixed; } .ps-content-wrapper-v0 table.normal tbody { display: block; overflow-x: auto; overflow-y: hidden; } .ps-content-wrapper-v0 table.normal tbody tr:first-child th { font-weight: bold; white-space: normal; } .ps-content-wrapper-v0 table.normal tbody tr th, .ps-content-wrapper-v0 table.normal tbody tr td { font-weight: normal; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table.database-table { border-collapse: collapse; border-color: darkgray; border: 1px solid black; width: auto; margin-left: 4px; margin-top: 8px; margin-bottom: 8px; padding: 8px; } .ps-content-wrapper-v0 table.database-table tbody { overflow-x: auto; overflow-y: hidden; border: none; } .ps-content-wrapper-v0 table.database-table tbody tr th, .ps-content-wrapper-v0 table.database-table tbody tr td { font-weight: normal; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table.database-table tbody tr th { font-weight: bold; border: 1px solid black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(2) td { border: 1px solid black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(n+2) td:first-child { border-left-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(n+2) td:last-child { border-right-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr:last-child td { border-bottom-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr td.description { text-align: left; white-space: pre-wrap; } .ps-content-wrapper-v0 table.normal tbody tr th.description { width: 60%; } .ps-content-wrapper-v0 table.function-params tbody tr:first-child td.headers { border-bottom-width: 2px; } .ps-content-wrapper-v0 table.function-params tbody tr:last-child td { border-top-width: 2px; border-top-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.headers { width: 25%; font-weight: bold; text-align: center; border: 1px solid black; border-right-width: 2px; border-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell { width: 100%; height: 100%; padding: 0px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table { width: 100%; height: 100%; padding: 0px; margin: 0px; border: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td.code { white-space: normal; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th { border-top: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:last-child { border-right: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr:last-child td { border-bottom: 0; border-top-width: 1px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:last-child { border-right: 0; } .ps-content-wrapper-v0 table.sudoku { border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; } .ps-content-wrapper-v0 table.sudoku colgroup, tbody { border: 3px solid black; } .ps-content-wrapper-v0 table.sudoku td { border: 1px solid black; height: 25px; width: 25px; text-align: center; padding: 0; } .ps-content-wrapper-v0 .left { text-align: left; } .ps-content-wrapper-v0 .right { text-align: right; } .ps-content-wrapper-v0 .code { font-family: monospace; white-space: nowrap; } .ps-content-wrapper-v0 .json-object-array ol, .ps-content-wrapper-v0 .json-object-array ol ul { margin-top: 0px; padding-left: 14px; } .json-object-array li { float: left; margin-right: 30px; margin-left: 10px; } .json-object-array pre { padding: 4px; margin-left: 0px; }
+</style>
+<div class="ps-content-wrapper-v0">
+<p>A database contains daily Covid cases reported for 2021. Calculate the percentage increase in covid cases each month versus cumulative cases as of the prior month. Return the month number, and the percentage increase rounded to one decimal. Order the result by the month.</p>
+
+<p>&nbsp;</p>
+
+<details><summary class="section-title">Schema</summary>
+
+<div class="collapsable-details">
+<p>There is 1 table: <code>daily_cases</code>.</p>
+
+<table class="database-table">
+	<tbody>
+		<tr>
+			<th colspan="100">DAILY_CASES</th>
+		</tr>
+		<tr>
+			<td>Name</td>
+			<td>Type</td>
+			<td>Description</td>
+		</tr>
+		<tr>
+			<td>record_date</td>
+			<td>varchar(10)</td>
+			<td class="description">date associated with the data</td>
+		</tr>
+		<tr>
+			<td>cases_count</td>
+			<td>int</td>
+			<td class="description">the number of cases recorded</td>
+		</tr>
+	</tbody>
+</table>
+</div>
+</details>
+
+<details><summary class="section-title">Sample Data Tables</summary>
+
+<div class="collapsable-details">
+<table class="database-table">
+	<tbody>
+		<tr>
+			<th colspan="100">DAILY_CASES</th>
+		</tr>
+		<tr>
+			<td>record_date</td>
+			<td>cases_count</td>
+		</tr>
+		<tr>
+			<td>2021-01-01</td>
+			<td>35984</td>
+		</tr>
+		<tr>
+			<td>2021-01-16</td>
+			<td>44614</td>
+		</tr>
+		<tr>
+			<td>2021-01-31</td>
+			<td>45285</td>
+		</tr>
+		<tr>
+			<td>2021-02-15</td>
+			<td>66089</td>
+		</tr>
+		<tr>
+			<td>2021-03-02</td>
+			<td>171438</td>
+		</tr>
+		<tr>
+			<td>2021-03-17</td>
+			<td>113594</td>
+		</tr>
+		<tr>
+			<td>2021-04-01</td>
+			<td>175257</td>
+		</tr>
+		<tr>
+			<td>2021-04-16</td>
+			<td>117325</td>
+		</tr>
+		<tr>
+			<td>2021-05-01</td>
+			<td>156273</td>
+		</tr>
+		<tr>
+			<td>2021-05-16</td>
+			<td>127783</td>
+		</tr>
+		<tr>
+			<td>2021-05-31</td>
+			<td>139975</td>
+		</tr>
+		<tr>
+			<td>2021-06-15</td>
+			<td>56670</td>
+		</tr>
+		<tr>
+			<td>2021-06-30</td>
+			<td>63238</td>
+		</tr>
+		<tr>
+			<td>2021-07-15</td>
+			<td>50248</td>
+		</tr>
+		<tr>
+			<td>2021-07-30</td>
+			<td>25869</td>
+		</tr>
+		<tr>
+			<td>2021-08-14</td>
+			<td>12021</td>
+		</tr>
+		<tr>
+			<td>2021-08-29</td>
+			<td>42355</td>
+		</tr>
+		<tr>
+			<td>2021-09-13</td>
+			<td>31289</td>
+		</tr>
+		<tr>
+			<td>2021-09-28</td>
+			<td>81926</td>
+		</tr>
+		<tr>
+			<td>2021-10-13</td>
+			<td>14629</td>
+		</tr>
+		<tr>
+			<td>2021-10-28</td>
+			<td>12281</td>
+		</tr>
+		<tr>
+			<td>2021-11-12</td>
+			<td>91223</td>
+		</tr>
+		<tr>
+			<td>2021-11-27</td>
+			<td>10706</td>
+		</tr>
+		<tr>
+			<td>2021-12-12</td>
+			<td>64819</td>
+		</tr>
+		<tr>
+			<td>2021-12-27</td>
+			<td>53434</td>
+		</tr>
+	</tbody>
+</table>
+
+<p>&nbsp;</p>
+<!--
+<table class="database-table">
+	<tbody>
+		<tr>
+			<th colspan="100">OUTPUT</th>
+		</tr>
+		<tr>
+			<td>month</td>
+			<td>increase</td>
+		</tr>
+		<tr>
+			<td>2</td>
+			<td>52.5</td>
+		</tr>
+		<tr>
+			<td>3</td>
+			<td>148.5</td>
+		</tr>
+		<tr>
+			<td>4</td>
+			<td>61.3</td>
+		</tr>
+		<tr>
+			<td>5</td>
+			<td>55.1</td>
+		</tr>
+		<tr>
+			<td>6</td>
+			<td>10.0</td>
+		</tr>
+		<tr>
+			<td>7</td>
+			<td>5.8</td>
+		</tr>
+		<tr>
+			<td>8</td>
+			<td>3.9</td>
+		</tr>
+		<tr>
+			<td>9</td>
+			<td>7.8</td>
+		</tr>
+		<tr>
+			<td>10</td>
+			<td>1.7</td>
+		</tr>
+		<tr>
+			<td>11</td>
+			<td>6.4</td>
+		</tr>
+		<tr>
+			<td>12</td>
+			<td>7.0</td>
+		</tr>
+	</tbody>
+</table>
+-->
+
+<pre>&nbsp; &nbsp; &nbsp; &nbsp; Monthly Cumulative &nbsp;Percent&nbsp;
+Month &nbsp; Cases &nbsp; Cases &nbsp; &nbsp; &nbsp; Increase
+1 &nbsp; &nbsp; &nbsp; 125,883 &nbsp; &nbsp;125,883 &nbsp;
+2 &nbsp; &nbsp; &nbsp; &nbsp;66,089 &nbsp; &nbsp;191,972 &nbsp; &nbsp;52.5%
+3 &nbsp; &nbsp; &nbsp; 285,032 &nbsp; &nbsp;477,004 &nbsp; 148.5%
+4 &nbsp; &nbsp; &nbsp; 292,582 &nbsp; &nbsp;769,586 &nbsp; &nbsp;61.3%
+5 &nbsp; &nbsp; &nbsp; 424,031 &nbsp;1,193,617 &nbsp; 55.1%
+6 &nbsp; &nbsp; &nbsp; 119,908 &nbsp;1,313,525 &nbsp; 10.0%
+7 &nbsp; &nbsp; &nbsp; &nbsp;76,117 &nbsp;1,389,642 &nbsp; &nbsp;5.8%
+8 &nbsp; &nbsp; &nbsp; &nbsp;54,376 &nbsp;1,444,018 &nbsp; &nbsp;3.9%
+9 &nbsp; &nbsp; &nbsp; 113,215 &nbsp;1,557,233 &nbsp; &nbsp;7.8%
+10 &nbsp; &nbsp; &nbsp; 26,910 &nbsp;1,584,143 &nbsp; &nbsp;1.7%
+11 &nbsp; &nbsp; &nbsp;101,929 &nbsp;1,686,072 &nbsp; &nbsp;6.4%
+12 &nbsp; &nbsp; &nbsp;118,253 &nbsp;1,804,325 &nbsp; &nbsp;7.0%
+</pre>
+
+<p>&nbsp;</p>
+
+<p><strong>Explanation:</strong></p>
+
+<p>&nbsp;</p>
+
+<p>Monthly cases are summarized in the first column. Keep a running sum of total cases.</p>
+
+<p>&nbsp;</p>
+
+<p>The percentage increase for month 3, for example, is 285032 /191972 = 1.484758</p>
+
+<p>&nbsp;</p>
+
+<p>Note that reporting should start at month 2. The final result on this dataset is shown.</p>
+
+<p>&nbsp;</p>
+
+<pre>2        52.5
+3       148.5
+4        61.3
+5        55.1
+6        10.0
+7         5.8
+8         3.9
+9         7.8
+10        1.7
+11        6.4
+12        7.0
+</pre>
+
+<p>&nbsp;</p>
+</div>
+</details>
+</div>
+</div></div></section></div>
+
+result:
+
+SELECT month, 
+    ROUND(
+        (monthly_cases / NULLIF(cumulative_cases_prior_month, 0)) * 100,
+    1) AS percentage_increase
+from (
+SELECT MONTH(record_date) as month,
+ SUM(cases_count) as monthly_cases,
+SUM(SUM(cases_count)) OVER (ORDER BY YEAR(record_date), MONTH(record_date) ROWS BETWEEN UNBOUNDED PRECEDING AND 1 PRECEDING) AS cumulative_cases_prior_month
+from daily_cases
+group by MONTH(record_date), YEAR(record_date) ) as x
+where cumulative_cases_prior_month is not null
+order by month asc
+
+3 - 
+
+<div id="main-splitpane-left" class="coding-question__left-pane"><section class="question-view__title-wrapper"><h1 class="disable-text-selection question-view__title">3. Maximize the Revenue</h1></section><section class="question-view__instruction"><div class="candidate-rich-text disable-text-selection"><div id="eac3tclia0t-instruction"><p>There are&nbsp;<em>n&nbsp;</em>types of items in a shop, where the number of items of type&nbsp;<em>i&nbsp;</em>is denoted by&nbsp;<em>quantity[i]. </em>The price of the items is determined dynamically, where the price of the <em>i<sup>th</sup>&nbsp;</em>item is equal to the remaining number of items of type <em>i.&nbsp;</em>There are&nbsp;<em>m&nbsp;</em>customers in line to buy the items from the shop, and each customer will buy exactly one item of any type.&nbsp;</p>
+
+<p>&nbsp;</p>
+
+<p>The shopkeeper, being greedy, tries to sell the items in a way that maximises revenue. Find the maximum amount the shopkeeper can earn by selling exactly&nbsp;<em>m&nbsp;</em>items to the&nbsp;customers optimally.</p>
+
+<p>
+<style type="text/css">.ps-content-wrapper-v0 div { margin: 0 auto; overflow: auto; } .ps-content-wrapper-v0 div.preheader { display: none; } .ps-content-wrapper-v0 p { white-space: pre-wrap; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 p.section-title { font-weight: bold; padding-bottom: 0px; } .ps-content-wrapper-v0 ol.plain-list, .ps-content-wrapper-v0 ul.plain-list { list-style-type: none; padding: 4px; } .ps-content-wrapper-v0 li { white-space: normal; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 code { color: black; } .ps-content-wrapper-v0 pre { background-color: #f4faff; border: 0; border-radius: 2px; margin: 8px; padding: 10px; } .ps-content-wrapper-v0 pre.scrollable-full-json { overflow-x: scroll; white-space: pre; } .ps-content-wrapper-v0 pre.scrollable-json { height: 300px; overflow-y: scroll; display: inline-grid; white-space: pre-wrap; padding-left: 8px; padding-right: 8px; padding-top: 4px; padding-bottom: 4px; } .ps-content-wrapper-v0 div.equation-parent { width: 400px; text-align: center; border: 1px solid #000; padding: 8px; } .ps-content-wrapper-v0 div.equation-parent.equation { width: 100%; display: inline-block; } .ps-content-wrapper-v0 figure { background-color: transparent; display: table; margin-top: 8px; margin-bottom: 8px; text-align: center; margin-left: auto; margin-right: auto; } .ps-content-wrapper-v0 figcaption { text-align: center; display: table-caption; caption-side: bottom; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 img { width: auto; max-width: 100%; height: auto; } .ps-content-wrapper-v0 details { background-color: transparent; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; } .ps-content-wrapper-v0 details details { padding-left: 8px; padding-right: 8px; } .ps-content-wrapper-v0 details summary { background-color: #39424e; color: white; font-weight: bold; margin-top: 4px; margin-bottom: 4px; padding: 8px; } .ps-content-wrapper-v0 details details summary code { color: black; font-weight: bold; padding-left: 2px; padding-right: 2px; padding-top: 4px; padding-right: 4px; margin-left: 4px; } .ps-content-wrapper-v0 details div.collapsable-details { margin: 0 auto; padding-left: 4px; padding-right: 4px; padding-top: 0px; padding-bottom: 2px; overflow: auto; } .ps-content-wrapper-v0 details div.collapsable-details pre { margin-left: 4px; margin-right: 4px; margin-top: 4px; margin-bottom: 4px; } .ps-content-wrapper-v0 table.normal { border: 1px solid black; border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; width: 96%; table-layout: fixed; } .ps-content-wrapper-v0 table.normal tbody { display: block; overflow-x: auto; overflow-y: hidden; } .ps-content-wrapper-v0 table.normal tbody tr:first-child th { font-weight: bold; white-space: normal; } .ps-content-wrapper-v0 table.normal tbody tr th, .ps-content-wrapper-v0 table.normal tbody tr td { font-weight: normal; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table.database-table { border-collapse: collapse; border-color: darkgray; border: 1px solid black; width: auto; margin-left: 4px; margin-top: 8px; margin-bottom: 8px; padding: 8px; } .ps-content-wrapper-v0 table.database-table tbody { overflow-x: auto; overflow-y: hidden; border: none; } .ps-content-wrapper-v0 table.database-table tbody tr th, .ps-content-wrapper-v0 table.database-table tbody tr td { font-weight: normal; white-space: nowrap; text-align: center; vertical-align: middle; border: 1px solid black; border-color: darkgray; padding: 8px; } .ps-content-wrapper-v0 table.database-table tbody tr th { font-weight: bold; border: 1px solid black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(2) td { border: 1px solid black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(n+2) td:first-child { border-left-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr:nth-child(n+2) td:last-child { border-right-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr:last-child td { border-bottom-color: black; } .ps-content-wrapper-v0 table.database-table tbody tr td.description { text-align: left; white-space: pre-wrap; } .ps-content-wrapper-v0 table.normal tbody tr th.description { width: 60%; } .ps-content-wrapper-v0 table.function-params tbody tr:first-child td.headers { border-bottom-width: 2px; } .ps-content-wrapper-v0 table.function-params tbody tr:last-child td { border-top-width: 2px; border-top-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.headers { width: 25%; font-weight: bold; text-align: center; border: 1px solid black; border-right-width: 2px; border-color: darkgray; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell { width: 100%; height: 100%; padding: 0px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table { width: 100%; height: 100%; padding: 0px; margin: 0px; border: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td.code { white-space: normal; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th { border-top: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr th:last-child { border-right: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr:last-child td { border-bottom: 0; border-top-width: 1px; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:first-child { border-left: 0; } .ps-content-wrapper-v0 table.function-params tbody tr td.params-table-cell table.params-table tbody tr td:last-child { border-right: 0; } .ps-content-wrapper-v0 table.sudoku { border-collapse: collapse; border-color: darkgray; margin: 0 auto; margin-top: 8px; margin-bottom: 8px; padding: 8px; } .ps-content-wrapper-v0 table.sudoku colgroup, tbody { border: 3px solid black; } .ps-content-wrapper-v0 table.sudoku td { border: 1px solid black; height: 25px; width: 25px; text-align: center; padding: 0; } .ps-content-wrapper-v0 .left { text-align: left; } .ps-content-wrapper-v0 .right { text-align: right; } .ps-content-wrapper-v0 .code { font-family: monospace; white-space: nowrap; } .ps-content-wrapper-v0 .json-object-array ol, .ps-content-wrapper-v0 .json-object-array ol ul { margin-top: 0px; padding-left: 14px; } .json-object-array li { float: left; margin-right: 30px; margin-left: 10px; } .json-object-array pre { padding: 4px; margin-left: 0px; }
+</style>
+</p>
+
+<div class="ps-content-wrapper-v0">
+<p>&nbsp;</p>
+
+<p><strong>Example</strong></p>
+
+<p>Consider <em>n</em> = 3, <em>m </em>= 4, <em>quantity</em> = [1, 2, 4].</p>
+
+<p>&nbsp;</p>
+
+<p>One of the optimal ways to sell the items is as follows:</p>
+
+<pre>Item Type&nbsp;&nbsp;  Customers   &nbsp;&nbsp; Amount&nbsp;&nbsp;      Quantity Remaining
+---------&nbsp;&nbsp;  ------------   ------        ------------------
+3rd          1              4             [1, 2, 3]
+2nd          1              4 + 2 = 6     [1, 1, 3]
+3rd          1              6 + 3 = 9     [1, 1, 2]
+3rd          1              9 + 2 = 11    [1, 1, 1]
+</pre>
+
+<p>The maximum possible revenue is 11.</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Function Description </strong></p>
+
+<p>Complete the function <em>getMaximumAmount</em> in the editor below.</p>
+
+<p>&nbsp;</p>
+
+<p><em>getMaximumAmount</em> has the following parameter:</p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<em>int quantity[n]:</em>&nbsp; the number of items of each type</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Returns</strong></p>
+
+<p>&nbsp;&nbsp;&nbsp;&nbsp;<em>long_int:</em>&nbsp;the maximum revenue possible</p>
+
+<p>&nbsp;</p>
+
+<p><strong>Constraints</strong></p>
+
+<ul>
+	<li>1 <b>≤</b> <em>n</em> <b>≤</b> 10<sup>5</sup>
+</li>
+	<li>1 <b>≤</b> <em>m</em>&nbsp;<b>≤</b> 10<sup>5</sup>
+</li>
+	<li>1 <b>≤</b> <em>quantity[i]</em> <b>≤</b> 10<sup>5</sup>
+</li>
+</ul>
+
+<details><summary class="section-title">Input Format for Custom Testing</summary>
+
+<div class="collapsable-details">
+<p>The first line contains an integer <em>n</em>, the size of the array <em>quantity</em>.</p>
+
+<p>Each of the next <em>n</em> lines contains an integer <em>quantity[i]</em>.</p>
+
+<p>The next line contains an integer <em>m</em>.</p>
+</div>
+</details>
+
+<details open="open"><summary class="section-title">Sample Case 0</summary>
+
+<div class="collapsable-details">
+<p><strong>Sample Input 0</strong></p>
+
+<pre>STDIN	&nbsp;&nbsp;&nbsp;&nbsp;  FUNCTION
+-----&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; --------
+5    &nbsp;&nbsp;&nbsp;&nbsp;→    the size of quantity[], n = 5
+10   &nbsp;&nbsp;&nbsp;&nbsp;→ &nbsp;&nbsp;&nbsp;quantity = [10, 10, 8, 9, 1]
+10
+8
+9
+1
+6   &nbsp;&nbsp;&nbsp;&nbsp; →    m = 6</pre>
+
+<p><strong>Sample Output 0</strong></p>
+
+<pre>55
+</pre>
+
+<p><strong>Explanation</strong></p>
+
+<p>Given <em>n = 5, quantity = [10, 10, 8, 9, 1], m = 6.</em></p>
+
+<p>&nbsp;</p>
+
+<p>One of the optimal ways to sell the items is as follows:</p>
+
+<pre>Item Type&nbsp;&nbsp;  Customers   &nbsp;&nbsp; Amount&nbsp;&nbsp;              Quantity Remaining
+---------&nbsp;&nbsp;  ------------   ------                ------------------
+1st          3              10 + 9 + 8 = 27       [7, 10, 8, 9, 1]
+2nd          2              27 + 10 + 9 = 46      [7, 8, 8, 9, 1]
+4th          1              46 + 9 = 55           [7, 8, 8, 8, 1]
+</pre>
+
+<p>The maximum possible revenue is 55.</p>
+</div>
+</details>
+
+<details><summary class="section-title">Sample Case 1</summary>
+
+<div class="collapsable-details">
+<p><strong>Sample Input 1</strong></p>
+
+<pre>STDIN	&nbsp;&nbsp;&nbsp;&nbsp;  FUNCTION
+-----	  &nbsp;&nbsp;&nbsp;&nbsp;--------
+4 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;→ &nbsp;  the size of quantity, n = 4
+8  &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;→ &nbsp;&nbsp;&nbsp;quantity = [8, 8, 8, 8]
+8
+8
+8
+4 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp; → &nbsp;  m = 4
+</pre>
+
+<p><strong>Sample Output 1</strong></p>
+
+<pre>32
+</pre>
+
+<p><strong>Explanation</strong></p>
+
+<p>Here, <em>n</em> = 4, <em>quantity = </em>[8, 8, 8, 8], <em>m </em>= 4.</p>
+
+<p>The optimal way is to sell one item of each type. The total amount earned = 8 + 8 + 8 + 8 = 32.</p>
+</div>
+</details>
+</div>
+</div></div></section></div>
+
+
+RESULT:
+#!/bin/python3
+
+import math
+import os
+import random
+import re
+import sys
+
+
+#
+# Complete the 'getMaximumAmount' function below.
+#
+# The function is expected to return a LONG_INTEGER.
+# The function accepts following parameters:
+#  1. INTEGER_ARRAY quantity
+#  2. INTEGER m
+#
+# QUEUE? 
+# m-> customers (6)
+# n -> types of items ([10, 10, 8, 9, 1])
+
+import heapq # priority queue
+
+def getMaximumAmount(quantity, m):
+    # Write your code here
+    # One iteration per customer.
+    # Highest available quantity item is sold on each iteration.
+    heap_max = [-q for q in quantity if q >0] # Heapq only provides a min heap implementation
+    heapq.heapify(heap_max) # Transforms list to heap
+    total_revenue = 0
+    
+    for x in range(m):
+        if heap_max:
+            current_item = -heapq.heappop(heap_max) # Highest quantity item
+            total_revenue += current_item
+            if current_item >1: # If there are items left
+                # Decreasing quantity (one item is sold) and pushing back to queue
+                heapq.heappush(heap_max, -(current_item -1))
+    return total_revenue
+if __name__ == '__main__':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    quantity_count = int(input().strip())
+
+    quantity = []
+
+    for _ in range(quantity_count):
+        quantity_item = int(input().strip())
+        quantity.append(quantity_item)
+
+    m = int(input().strip())
+
+    result = getMaximumAmount(quantity, m)
+
+    fptr.write(str(result) + '\n')
+
+    fptr.close()

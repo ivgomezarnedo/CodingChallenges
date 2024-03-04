@@ -1,0 +1,121 @@
+{
+  "currency": "USD",
+  "reports": [
+    {
+      "updatedAt": "2022-02-13T00:00:00",
+      "fromDate": "2022-02-01T00:00:00",
+      "toDate": "2022-02-28T00:00:00",
+      "income": {
+        "name": "Income",
+        "value": 6960.09,
+        "items": [
+          {
+            "name": "Sales",
+            "value": 6960.09,
+            "items": []
+          }
+        ]
+      },
+      "costOfSales": {
+        "name": "Cost of Sales",
+        "value": 700,
+        "items": [
+          {
+            "name": "Purchases",
+            "value": 700,
+            "items": []
+          }
+        ]
+      },
+      "expenses": {
+        "name": "Expenses",
+        "value": 1392.06,
+        "items": [
+          {
+            "name": "Advertising & Marketing",
+            "value": 1083.33,
+            "items": [
+              {
+                "name": "FB Ads",
+                "value": 503.33,
+                "items": []
+              },
+              {
+                "name": "GG Ads",
+                "value": 580,
+                "items": []
+              }
+            ]
+          },
+          {
+            "name": "Entertainment-100% business",
+            "value": 18.33,
+            "items": []
+          },
+          {
+            "name": "General Expenses",
+            "value": 186.97,
+            "items": []
+          },
+          {
+            "name": "Light, Power, Heating",
+            "value": 103.43,
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "updatedAt": "2022-02-07T00:00:00",
+      "fromDate": "2022-01-01T00:00:00",
+      "toDate": "2022-01-31T00:00:00",
+      "income": {
+        "name": "Income",
+        "value": 416.67,
+        "items": [
+          {
+            "name": "Sales",
+            "value": 416.67,
+            "items": []
+          }
+        ]
+      },
+      "costOfSales": {
+        "name": "Cost of Sales",
+        "value": 0,
+        "items": []
+      },
+      "expenses": {
+        "name": "Expenses",
+        "value": 100.71,
+        "items": [
+          {
+            "name": "Light, Power, Heating",
+            "value": 100.71,
+            "items": []
+          }
+        ]
+      }
+    },
+    {
+      "updatedAt": "2022-02-13T00:00:00",
+      "fromDate": "2021-12-01T00:00:00",
+      "toDate": "2021-12-31T00:00:00",
+      "income": {
+        "name": "Income",
+        "value": 0,
+        "items": []
+      },
+      "costOfSales": {
+        "name": "Cost of Sales",
+        "value": 0,
+        "items": []
+      },
+      "expenses": {
+        "name": "Expenses",
+        "value": 0,
+        "items": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,109 @@
+{
+  "currency": "USD",
+  "report": { 
+    "updatedAt": "2022-02-05T00:00:00",
+    "assets": {
+      "name": "Assets",
+      "value": 25592.17,
+      "items": [
+        {
+          "name": "Fixed Assets",
+          "value": 4069,
+          "items": [
+            {
+              "name": "Office Equipment",
+              "value": 3569,
+              "items": []
+            },
+            {
+              "name": "Computer Equipment",
+              "value": 500,
+              "items": []
+            }
+          ]
+        },
+        {
+          "name": "Current Assets",
+          "value": 21523.17,
+          "items": [
+            {
+              "name": "Accounts Receivable",
+              "value": 11417.63,
+              "items": []
+            },
+            {
+              "name": "Bank",
+              "value": 10105.54,
+              "items": [
+                {
+                  "name": "Business Bank Account",
+                  "value": 10105.54,
+                  "items": []
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    "liabilities": {
+      "name": "Liabilities",
+      "value": 14054.83,
+      "items": [
+        {
+          "name": "Current Liabilities",
+          "value": 13054.83,
+          "items": [
+            {
+              "name": "VAT",
+              "value": 1444.62,
+              "items": []
+            },
+            {
+              "name": "Rounding",
+              "value": 0.02,
+              "items": []
+            },
+            {
+              "name": "Historical Adjustment",
+              "value": 4130.98,
+              "items": []
+            },
+            {
+              "name": "Accounts Payable",
+              "value": 7479.21,
+              "items": []
+            }
+          ]
+        },
+        {
+          "name": "Other Liabilities",
+          "value": 1000,
+          "items": [
+            {
+              "name": "Other",
+              "value": 1000,
+              "items": []
+            }
+          ]
+        }
+      ]
+    },
+    "equity": {
+      "name": "Equity",
+      "value": 11051.67,
+      "items": [
+        {
+          "name": "Retained Earnings",
+          "value": 650.01,
+          "items": []
+        },
+        {
+          "name": "Current Year Earnings",
+          "value": 10401.66,
+          "items": []
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,55 @@
+Background
+
+
+Attached you’ll find a file called sample_orders.json.gz that’s a gzipped file in the JSON-Lines format.  This file contains sample user order events from an ecommerce website that are pulled from an API.  
+
+
+Problem
+
+
+For this coding assignment, we want you to get familiar with the code by augmenting the data. Inside the sample_orders.json.gz file, you will find a `USER_AGENT` column.  We would like you to parse the `USER_AGENT`  and derive three new columns:
+
+
+1. Device Type (Mobile, Computer, Tablet, Other, etc)
+
+2. Browser Type (Safari, Firefox, etc)
+
+3. Browser Version 
+
+
+Requirements and Rules
+
+
+
+You can use any publicly available libraries (recommend for the user-agent parsing)
+
+
+
+The app should read the sample_orders.json.gz  file, and write a new file with the additional columns called sample_orders_transformed.json.gz 
+
+
+
+Add some tests to prove the newly added functionality is working properly 
+
+
+
+There may be some data quality issues.  Please be explicit in tests / logic with how you handle them. 
+
+
+
+Zip your project up and send this back to us!
+
+
+
+There are no timelines on completing this take home but the sooner the better
+
+
+
+Please implement your solution in Python, Scala, or Java
+
+
+
+If you are selected to move on to the next phase, the code extension interview will build upon this take home assignment to further transform the data.
+
+
+This test is designed to be respectful of your time, we’re hoping that you will only have to spend a short amount of time on it. If you have any questions, please reach out to us!
